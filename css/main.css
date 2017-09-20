@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: #000000;
     margin: 60px auto;
     width: 70%;
 }
@@ -21,7 +21,7 @@ a:hover {
     text-decoration: underline;
 }
 h1 {
-    color: darkred;
+    color: #B53E24;
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
