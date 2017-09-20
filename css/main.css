@@ -34,9 +34,8 @@ footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
 }
-
-ul.posts { 
-    margin: 20px auto 40px; 
+ul.posts {
+    margin: 20px auto 40px;
     font-size: 1.5em;
 }
 
@@ -47,4 +46,18 @@ ul.posts li {
 img.center {
     display: block;
     margin: 0 auto;
+    height: 300;
+    width: 900;
+}
+body ul li {
+  color: #333;
+  font-family:'Helvetica', 'Arial', 'Sans-Serif';
+  padding: 0px;
+  list-style: none;
+}
+h2 {
+  color: #333;
+  font-family:'Helvetica', 'Arial', 'Sans-Serif';
+  padding: 0px;
+  text-decoration: underline;
 }
