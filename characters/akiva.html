@@ -1,13 +1,47 @@
 <html>
-  <head>
-    <script
-  src="https://code.jquery.com/jquery-3.2.1.min.js"
-  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-  crossorigin="anonymous"></script>
-  </head>
+	<head>
+		<title>Akiva Fellware</title>
+		<!-- link to main stylesheet -->
+		<link rel="stylesheet" type="text/css" href="../css/main.css">
+    <script src="../js/jquery.js"></script>
+	</head>
+
   <body>
-  <p id="#akiva"></p>
-    <script>$( "#akiva" ).load( "characterbios/akivabio.html" );</script>
-  <p>Arghhhhhh this is annoyinggggggggggggggg, why won't you work >_< grrrrrrrrrrrr</p>
-</body>
+
+    <h1>
+			<img src="../images/dnd.png" alt="D&D Logo" class="center">
+		</h1>
+		<nav>
+    		<ul>
+        		<li><a href="index.html">Home</a></li>
+						<li><a href="characters.html">The Main Characters</a></li>
+	        	<li><a href="about.html">About</a></li>
+						<li><a href="test.html">Test Page</a></li>
+    		</ul>
+		</nav>
+		<hr>
+
+    <div class="container">
+    		<div class="blurb">
+        		<h1><u>Akiva Fellware</h1>
+						<p>A young noble who is the heir of the Fellware's of Clarine.</p>
+    		</div><!-- /.blurb -->
+		</div><!-- /.container -->
+
+    <div id="content">Blah Blah Blah</div>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#result').load('characterbios/akivabio.html');
+        });
+    </script>
+
+
+    <footer>
+    		<ul>
+        		<li><a href="mailto:joshuawest@sc.rr.com">email</a></li>
+        		<li><a href="https://github.com/gunneyjdog">github.com/gunneyjdog</a></li>
+			</ul>
+		</footer>
+	</body>
 </html>
