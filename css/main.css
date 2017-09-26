@@ -4,7 +4,7 @@ body {
     width: 70%;
 }
 nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family:'times', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -23,7 +23,7 @@ a:hover {
 h1 {
     color: #B53E24;
     font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family:'times', 'Arial', 'Sans-Serif';
 }
 p {
     font-size: 1.5em;
@@ -54,13 +54,13 @@ img.center {
 }
 body ul li {
   color: #333;
-  font-family:'Helvetica', 'Arial', 'Sans-Serif';
+  font-family:'times', 'Arial', 'Sans-Serif';
   padding: 0px;
   list-style: none;
 }
 h2 {
   color: #333;
-  font-family:'Helvetica', 'Arial', 'Sans-Serif';
+  font-family:'times', 'Arial', 'Sans-Serif';
   padding: 0px;
   text-decoration: underline;
 }
